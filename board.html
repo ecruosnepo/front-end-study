@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>글 목록</title>
+
+    <style>
+        caption{
+            text-align: left;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        tr{
+            border-bottom: 1px solid lightgrey;
+        }
+        thead{
+            border-top: 2px solid black;
+            background-color: lightgrey;
+        }
+        th{
+            padding:5px 20px 5px 20px;
+        }
+        tbody td{
+            padding:10px;
+        }
+        .title{
+            font-weight : bold;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <table>
+            <caption><h1>글 목록</h1></caption>
+            <thead>
+            <tr><th>번호</th><th>제목</th><th>작성자</th><th>작성일</th><th>조회수</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td class="title"><a href="">위니브에서 수강생분들에게 알려드립니다.</a></td>
+                    <td>홍길동</td>
+                    <td><time datetime="2023-04-25">2023.04.25</time></td>
+                    <td>999</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="title"><a href="">이스트소프트 백엔드 개발 오르미 1기 모집.</a></td>
+                    <td>홍길동</td>
+                    <td><time datetime="2023-03-24">2023.03.24</time></td>
+                    <td>999</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+</body>
+</html>
