@@ -17,35 +17,51 @@
     </header>
     <article>
         <strong>원활한 서비스 이용을 위해 회원가입을 해주세요.</strong>
-        
-        <ul class="userInfo">
-            <li><label>아이디 <input type="text"></label></li>
-            <li><label>이메일 <input type="email"></label></li>
-            <li><label>비밀번호 <input type="password"></label></li>
-            <li><label>닉네임 <input type="text"></label></li>
-        </ul>
-        
-        <fieldset>
-            <legend>성별</legend>
-            <ul>
-                <li><input type="radio" name="sex">남성</li>
-                <li><input type="radio" name="sex">여성</li>
-                <li><input type="radio" name="sex">선택 안함</li>
-            </ul>
-        </fieldset>
 
-        <fieldset>
-            <legend>사용 기술</legend>
-            <ul>
-                <li><input type="checkbox" name="skill">HTML</li>
-                <li><input type="checkbox" name="skill">CSS</li>
-                <li><input type="checkbox" name="skill">JavaScript</li>
-                <li><input type="checkbox" name="skill">Python</li>
-                <li><input type="checkbox" name="skill">Django</li>
-                <li><input type="checkbox" name="skill">Github</li>
-                <li><input type="checkbox" name="skill">PostgreSQL</li>
+        <form action="">
+            <ul class="userInfo">
+                <li><label>아이디 <input type="text" required></label></li>
+                <li><label>이메일 <input type="email" required></label></li>
+                <li><label>비밀번호 <input type="password" required></label></li>
+                <li><label>닉네임 <input type="text" required></label></li>
             </ul>
-        </fieldset>
+
+            <fieldset>
+                <legend>성별</legend>
+                <ul>
+                    <li><input type="radio" name="gender" value="male">남성</li>
+                    <li><input type="radio" name="gender" value="female">여성</li>
+                    <li><input type="radio" name="gender" value="none">선택 안함</li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>사용 기술</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="skill" value="HTML">HTML
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill"value="CSS">CSS
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill" value="JavaScript">JavaScript
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill" value="Python">Python
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill" value="Django">Django
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill" value="Github">Github
+                    </li>
+                    <li>
+                        <input type="checkbox" name="skill" value="PostgreSQL">PostgreSQL
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
         <button type="submit">회원가입</button>
     </article>
 </body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인2</title>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+    <style>
+        *{
+            font-family: 'Spoqa Han Sans Neo', 'Spoqa Han Sans JP', sans-serif;
+            font-size: 12px;
+            line-height: 15.02px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        #login{
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 200px;
+            /*border:black 1px solid;*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #login-area{
+            background-color: #FFFFFF;
+            width: 350px;
+            height: 140px;
+            padding:0 16px 0 16px;
+            border: #DBDBDB 1px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:15px;
+        }
+
+        .greeting{
+            font-weight: 400;
+            color: #000000;
+        }
+
+        .login-btn-area{
+            width:318px;
+            height:40px;
+        }
+
+        .login-btn{
+            width: 318px;
+            height: 40px;
+            border: 0px;
+            border-radius: 4px;
+            padding:0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:5px;
+            background-color: #711BFF;
+            color: #FFFFFF;
+        }
+
+        .findJoin-area{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .findIdPw, .join{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .findIdPw a, .findIdPw span, .join a{
+            text-decoration: none;
+            color: #767676;
+        }
+
+    </style>
+</head>
+<body>
+    <article id="login">
+        <section id="login-area">
+            <span class="greeting">더 편리해진 위니브에 오신 것을 환영합니다.</span>
+
+<!--            로그인 버튼-->
+            <section class="login-btn-area">
+                <button class="login-btn" onclick="">
+                    <img class="logoImg" src="./weniv-logo.png" alt="위니브 로고">
+                    <span>로그인</span>
+                </button>
+            </section>
+
+<!--            아이디,비밀번호 찾기-->
+            <section class="findJoin-area">
+                <section class="findIdPw">
+                    <img src="./icon-lock.png" alt="자물쇠 아이콘">
+                    <a href="www.winiv.com/findId">아이디</a>
+                    <span>|</span>
+                    <a href="www.winiv.com/findPw">비밀번호찾기</a>
+                </section>
+
+                <!--            회원가입-->
+                <section class="join">
+                    <img src="./icon-user.png" alt="회원가입 아이콘">
+                    <a href="www.winiv.com/join">회원가입</a>
+                </section>
+            </section>
+        </section>
+    </article>
+</body>
+</html>
