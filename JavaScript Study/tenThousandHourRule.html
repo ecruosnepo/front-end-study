@@ -98,7 +98,8 @@
             border-radius: 7px;
 
             font-size:24px;
-            padding: 0 10px 0 10px;
+            text-align: center;
+            padding: 0 0px 0 0px;
             color: #BABCBE;
         }
 
@@ -161,6 +162,54 @@
             margin:80px 0 50px 0;
         }
 
+        .fighting{
+            display: none;
+            position: absolute;
+            z-index:10;
+        }
+
+        .fighting-contents{
+            width: 800px;
+            height: 800px;
+            background-color: #FFFFFF;
+            border: 0;
+            border-radius: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            color: #5B2386;
+        }
+
+        .fighting p{
+            font-family: OTEnjoystoriesBA;
+            margin: 0;
+        }
+
+        .fighting p:nth-child(1){
+            font-size: 96px;
+            font-weight: 700;
+        }
+
+        .fighting p:nth-child(2){
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .fighting button{
+            border: 0px;
+            border-radius: 56px;
+            background-color: #FCEE21;
+            color: #5B2386;
+            font-size: 24px;
+            font-weight: 700;
+            width: 508px;
+            height: 66px;
+            margin-top: 80px;
+        }
+
     </style>
 </head>
 <body>
@@ -208,7 +257,7 @@
                 대략 <span class="resultTime"></span>일 이상 훈련하셔야 합니다! :)
             </p>
             <div class="result-area-button">
-                <button class="Btn">훈련하러 가기 GO!GO!</button>
+                <input type="button" class="Btn goTraining" value="훈련하러 가기 GO!GO!" onclick="trainingModal()"></input>
                 <button class="Btn">공유하기</button>
             </div>
         </section>
@@ -222,6 +271,14 @@
         </p>
     </footer>
 
+    <section class="fighting">
+        <div class="fighting-contents">
+            <p>화이팅!!♥♥♥</p>
+            <p>당신의 꿈을 응원합니다!</p>
+            <img src="./licat.svg" alt="라이캣">
+            <button>종료하고 진짜 훈련하러 가기 GO!GO!</button>
+        </div>
+    </section>
 <script>
     function calcTime(){
         const job = document.getElementById('insertJob').value;
@@ -230,6 +287,10 @@
         document.getElementsByClassName('result-area')[0].style.display="flex";
         document.getElementsByClassName('resultJob')[0].innerHTML=job;
         document.getElementsByClassName('resultTime')[0].innerHTML=parseInt(10000/time);
+    }
+
+    function trainingModal(){
+        document.getElementsByClassName('fighting')[0].style.display="block";
     }
 </script>
 </body>
