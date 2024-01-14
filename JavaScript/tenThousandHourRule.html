@@ -280,17 +280,22 @@
         </div>
     </section>
 <script>
-    function calcTime(){
-        const job = document.getElementById('insertJob').value;
-        const time = document.getElementById('insertTime').value;
+    if(!document.querySelector('#insertJob').validity.valid){
+        alert("값이 입력되지 않았습니다.");
+    }
+    document.querySelector('#insertTime').validity.valid
 
-        document.getElementsByClassName('result-area')[0].style.display="flex";
-        document.getElementsByClassName('resultJob')[0].innerHTML=job;
-        document.getElementsByClassName('resultTime')[0].innerHTML=parseInt(10000/time);
+    function calcTime(){
+        const job = document.querySelector('#insertJob').value;
+        const time = document.querySelector('#insertTime').value;
+
+        document.querySelector('.result-area').style.display="flex";
+        document.querySelector('.resultJob').innerHTML=job;
+        document.querySelector('.resultTime').innerHTML=parseInt(10000/time);
     }
 
     function trainingModal(){
-        document.getElementsByClassName('fighting')[0].style.display="block";
+        document.querySelector('.fighting').style.display="block";
     }
 </script>
 </body>

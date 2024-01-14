@@ -6,7 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="6e8ca798-c88c-4f69-ab25-46388f0f9a29" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript Study/tenThousandHourRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript Study/tenThousandHourRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/est.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/est.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/flexTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/flexTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/icon-lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/icon-lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/icon-user.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/icon-user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/login2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/login2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/practice1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/practice1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/style.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/style.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/style2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/style2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Study/weniv-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/weniv-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/JavaScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/JavaScript.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/day1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/day1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/day2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/day2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/finger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/finger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/js_01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/licat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/licat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/quotes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/quotes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/tenThousandHourRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/tenThousandHourRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/titleLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/titleLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript Study/wenivLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/wenivLogo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +47,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,27 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/loona/IdeaProjects/Front-end Study",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/loona/IdeaProjects/Front-end Study&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HTML" />
@@ -95,7 +125,9 @@
       <workItem from="1704812731816" duration="2000" />
       <workItem from="1704850006952" duration="1326000" />
       <workItem from="1704975185029" duration="660000" />
-      <workItem from="1704976616507" duration="2863000" />
+      <workItem from="1704976616507" duration="2964000" />
+      <workItem from="1705018200610" duration="11683000" />
+      <workItem from="1705150672855" duration="600000" />
     </task>
     <servers />
   </component>
